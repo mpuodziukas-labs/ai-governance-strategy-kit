@@ -1,0 +1,11 @@
+# KPI register (fictional, synthetic)
+
+id | baseline | current | target | status | owner
+K01 | 58 | 92 | 100 | amber | Governance Lead
+K02 | 40 | 70 | 100 | amber | Director of Claims Analytics
+K03 | 45 | 34 | 20 | amber | Head of Procurement
+K04 | 25 | 30 | 90 | red | Evaluation Lead
+K05 | 50 | 88 | 95 | amber | Incident Owner
+K06 | 20 | 85 | 95 | green | Head of Talent
+
+green 1, amber 4, red 1

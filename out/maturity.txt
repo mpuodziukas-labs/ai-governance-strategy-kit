@@ -1,0 +1,14 @@
+# Maturity (fictional, synthetic)
+
+function | claimed | effective | target
+Govern | 4 | 4 | 4
+Map | 4 | 2 | 4
+Measure | 3 | 2 | 4
+Manage | 2 | 2 | 3
+
+gaps:
+- Map: claimed 4 but level 3 has no evidence: Implemented: the procedure ran at least once in production; evidence is a run record
+- Map: target 4 not reached (effective 2)
+- Measure: claimed 3 but level 3 has no evidence: Implemented: the procedure ran at least once in production; evidence is a run record
+- Measure: target 4 not reached (effective 2)
+- Manage: target 3 not reached (effective 2)

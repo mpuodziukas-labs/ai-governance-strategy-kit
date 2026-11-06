@@ -1,0 +1,11 @@
+id,title,impact,likelihood,value,effort,deps
+B01,Complete inventory of vendor-supplied systems,4,5,3,3,
+B02,Human oversight procedure for high-risk systems,5,4,4,5,B01
+B03,Bias evaluation harness for claims triage,5,3,4,8,B01
+B04,Model change-control gate,4,4,3,4,
+B05,Incident response drill for model failures,4,3,3,3,B04
+B06,Vendor due-diligence checklist,3,4,3,2,
+B07,Evaluation dashboard for monitored systems,3,4,4,6,B03
+B08,Staff training on approved use,3,5,2,2,
+B09,Data retention rules for prompts and outputs,4,3,3,3,B01
+B10,Quarterly board reporting pack,3,3,4,3,B07

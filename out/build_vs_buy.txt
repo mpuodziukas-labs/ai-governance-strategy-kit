@@ -1,0 +1,13 @@
+# Build vs buy (fictional, synthetic)
+
+build: 3.700
+buy: 3.350
+decision: build
+
+criterion | weight | flip weight
+cost | 3 | 6.500
+time_to_value | 3 | 5.333
+data_control | 4 | 0.500
+lock_in | 2 | none
+capability_fit | 4 | none
+compliance | 4 | none

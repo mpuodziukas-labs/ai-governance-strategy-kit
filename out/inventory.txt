@@ -1,0 +1,26 @@
+# Inventory (fictional, synthetic)
+
+systems: 12
+tier unacceptable: 0
+tier high: 5
+tier limited: 3
+tier minimal: 4
+covers govern: 8/12
+covers map: 9/12
+covers measure: 8/12
+covers manage: 4/12
+built: 7, vendor: 5
+
+id | tier | sourcing | owner
+SYS-01 | high | built | Director of Claims Analytics
+SYS-02 | high | built | Chief Medical Analyst
+SYS-03 | high | vendor | VP Utilization Management
+SYS-04 | limited | vendor | Head of Member Experience
+SYS-05 | limited | vendor | Head of Member Experience
+SYS-06 | high | built | Director of Program Integrity
+SYS-07 | minimal | built | Director of Data Platform
+SYS-08 | minimal | built | Director of Finance Analytics
+SYS-09 | minimal | vendor | VP Engineering
+SYS-10 | high | vendor | Head of Talent
+SYS-11 | limited | built | Chief Compliance Analyst
+SYS-12 | minimal | built | Director of Data Platform

@@ -1,0 +1,7 @@
+# ILLUSTRATIVE assumptions for a FICTIONAL company. Not measured, not from any real engagement.
+discount_rate_annual: 0.10
+upfront_cost: 400000
+monthly_run_cost: 15000
+monthly_benefit_at_full: 45000
+ramp_months: 6
+horizon_months: 36

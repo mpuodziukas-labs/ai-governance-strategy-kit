@@ -1,0 +1,9 @@
+# FICTIONAL KPI register. Baselines, targets and current values are synthetic.
+# band: attainment fraction of (current - baseline)/(target - baseline) for amber and green.
+kpis:
+  - {id: K01, name: Share of AI systems with a named owner, unit: percent, direction: up, baseline: 58, target: 100, current: 92, owner: Governance Lead, band: {amber: 0.5, green: 0.9}}
+  - {id: K02, name: High-risk systems with documented human oversight, unit: percent, direction: up, baseline: 40, target: 100, current: 70, owner: Director of Claims Analytics, band: {amber: 0.5, green: 0.9}}
+  - {id: K03, name: Median days to complete a vendor review, unit: days, direction: down, baseline: 45, target: 20, current: 34, owner: Head of Procurement, band: {amber: 0.4, green: 0.8}}
+  - {id: K04, name: Monitored systems with a current evaluation, unit: percent, direction: up, baseline: 25, target: 90, current: 30, owner: Evaluation Lead, band: {amber: 0.4, green: 0.8}}
+  - {id: K05, name: Model incidents closed within 10 days, unit: percent, direction: up, baseline: 50, target: 95, current: 88, owner: Incident Owner, band: {amber: 0.5, green: 0.85}}
+  - {id: K06, name: Staff trained on approved use, unit: percent, direction: up, baseline: 20, target: 95, current: 85, owner: Head of Talent, band: {amber: 0.5, green: 0.85}}

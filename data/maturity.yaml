@@ -1,0 +1,35 @@
+# FICTIONAL company. Self-assessment is synthetic. Each level needs evidence to count.
+levels:
+  1: "Ad hoc: a named person exists for the function; evidence is an appointment record"
+  2: "Documented: a written policy or procedure exists; evidence is the dated document"
+  3: "Implemented: the procedure ran at least once in production; evidence is a run record"
+  4: "Measured: the procedure produces metrics reviewed on a schedule; evidence is a review record"
+  5: "Optimized: reviews drive changes that were tracked to closure; evidence is a closed change log"
+functions:
+  Govern:
+    claimed: 4
+    target: 4
+    evidence:
+      1: ["Governance lead appointment memo"]
+      2: ["AI policy v1.2"]
+      3: ["Committee minutes, three meetings"]
+      4: ["Quarterly governance review pack"]
+  Map:
+    claimed: 4
+    target: 4
+    evidence:
+      1: ["Inventory owner named"]
+      2: ["Inventory schema document"]
+      4: ["Coverage metric review"]
+  Measure:
+    claimed: 3
+    target: 4
+    evidence:
+      1: ["Evaluation lead named"]
+      2: ["Evaluation procedure"]
+  Manage:
+    claimed: 2
+    target: 3
+    evidence:
+      1: ["Incident owner named"]
+      2: ["Incident response procedure"]

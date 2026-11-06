@@ -1,0 +1,24 @@
+# Priority backlog (fictional, synthetic)
+
+rank | id | score | title
+1 | B01 | 20.000 | Complete inventory of vendor-supplied systems
+2 | B06 | 18.000 | Vendor due-diligence checklist
+3 | B02 | 16.000 | Human oversight procedure for high-risk systems
+4 | B08 | 15.000 | Staff training on approved use
+5 | B04 | 12.000 | Model change-control gate
+6 | B05 | 12.000 | Incident response drill for model failures
+7 | B09 | 12.000 | Data retention rules for prompts and outputs
+8 | B10 | 12.000 | Quarterly board reporting pack
+9 | B07 | 8.000 | Evaluation dashboard for monitored systems
+10 | B03 | 7.500 | Bias evaluation harness for claims triage
+
+rank changes under +/-20% weights:
+- B06 (rank 2): -20% effort: 2->3
+- B02 (rank 3): -20% impact: 3->4; -20% value: 3->4; +20% effort: 3->4; -20% effort: 3->2
+- B08 (rank 4): -20% impact: 4->3; -20% value: 4->3; +20% effort: 4->3
+- B04 (rank 5): -20% impact: 5->6; -20% likelihood: 5->8; +20% value: 5->6; +20% effort: 5->8
+- B05 (rank 6): -20% impact: 6->7; -20% likelihood: 6->5; +20% value: 6->7; +20% effort: 6->5
+- B09 (rank 7): -20% impact: 7->8; -20% likelihood: 7->6; +20% value: 7->8; +20% effort: 7->6
+- B10 (rank 8): -20% impact: 8->5; -20% likelihood: 8->7; +20% value: 8->5; +20% effort: 8->7
+- B07 (rank 9): +20% impact: 9->10
+- B03 (rank 10): +20% impact: 10->9

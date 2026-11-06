@@ -1,0 +1,23 @@
+# FICTIONAL decision: evaluation harness for monitored systems. Scores 1-5 (5 is best), synthetic.
+criteria:
+  cost: 3
+  time_to_value: 3
+  data_control: 4
+  lock_in: 2
+  capability_fit: 4
+  compliance: 4
+options:
+  build:
+    cost: 2
+    time_to_value: 2
+    data_control: 5
+    lock_in: 5
+    capability_fit: 4
+    compliance: 4
+  buy:
+    cost: 4
+    time_to_value: 5
+    data_control: 3
+    lock_in: 2
+    capability_fit: 3
+    compliance: 3

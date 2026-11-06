@@ -1,0 +1,11 @@
+# Business case (ILLUSTRATIVE assumptions, fictional)
+
+npv: 425154.05
+payback month: 18
+roi: 0.6037
+
+tornado, 3 biggest drivers at +/-20%:
+driver | npv at -20% | npv at +20% | swing
+monthly_benefit_at_full | 166563.87 | 683744.24 | 517180.37
+monthly_run_cost | 518713.43 | 331594.68 | 187118.75
+upfront_cost | 505154.05 | 345154.05 | 160000.00
